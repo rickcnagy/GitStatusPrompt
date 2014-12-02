@@ -9,6 +9,6 @@ echo "# Adding ~/.git_prompt_command to ~/.bashrc"
 echo >> ~/.bashrc
 echo "# Detect and display prompt in bash status" >> ~/.bashrc
 echo "# https://gist.github.com/br1ckb0t/0718681978ab3f37fd0b)" >> ~/.bashrc
-echo "source ~/.git_prompt_command" >> ~/.bashrc
+echo "source ~/.git_status_prompt" >> ~/.bashrc
 
 source ~/.bashrc
