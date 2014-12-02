@@ -1,14 +1,14 @@
 #!/bin/bash
 
-mv ~/git-prompt/.git_prompt_command ~/.git_prompt_command
-mv ~/git-prompt/.git-prompt.sh
-mv ~/git-prompt/.git-completion.sh
+mv ~/GitStatusPrompt/.git_prompt_command ~/.git_prompt_command
+mv ~/GitStatusPrompt/.git-prompt.sh
+mv ~/GitStatusPrompt/.git-completion.sh
 
 # Add the .bash_prompt invocation to .bashrc
 echo "# Adding ~/.git_prompt_command to ~/.bashrc"
 echo >> ~/.bashrc
 echo "# Detect and display prompt in bash status" >> ~/.bashrc
-echo "# https://gist.github.com/br1ckb0t/0718681978ab3f37fd0b)" >> ~/.bashrc
+echo "# (https://github.com/br1ckb0t/GitStatusPrompt)" >> ~/.bashrc
 echo "source ~/.git_status_prompt" >> ~/.bashrc
 
 source ~/.bashrc
