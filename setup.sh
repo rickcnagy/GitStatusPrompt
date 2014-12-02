@@ -1,8 +1,8 @@
 #!/bin/bash
 
 mv ~/GitStatusPrompt/.git_status_prompt ~/.git_status_prompt
-mv ~/GitStatusPrompt/.git-prompt.sh
-mv ~/GitStatusPrompt/.git-completion.sh
+mv ~/GitStatusPrompt/.git-prompt.sh ~/.git-prompt.sh
+mv ~/GitStatusPrompt/.git-completion.sh ~/.git-completion.sh
 
 # Add the .bash_prompt invocation to .bashrc
 echo "# Adding ~/.git_prompt_command to ~/.bashrc"
