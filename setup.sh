@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mv ~/GitStatusPrompt/.git_prompt_command ~/.git_prompt_command
+mv ~/GitStatusPrompt/.git_status_prompt ~/.git_status_prompt
 mv ~/GitStatusPrompt/.git-prompt.sh
 mv ~/GitStatusPrompt/.git-completion.sh
 
