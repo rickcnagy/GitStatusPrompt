@@ -12,3 +12,5 @@ echo "# (https://github.com/br1ckb0t/GitStatusPrompt)" >> ~/.bashrc
 echo "source ~/.git_status_prompt" >> ~/.bashrc
 
 source ~/.bashrc
+
+echo "Installed. Please check ~/.bashrc for duplicate sourcing of ~/.git_status_prompt"
