@@ -9,8 +9,8 @@ echo "# Adding ~/.git_prompt_command to ~/.profile"
 echo >> ~/.profile
 echo "# Detect and display prompt in bash status" >> ~/.profile
 echo "# (https://github.com/br1ckb0t/GitStatusPrompt)" >> ~/.profile
-echo "source ~/.git_status_prompt" >> ~/.profile
+echo ". ~/.git_status_prompt" >> ~/.profile
 
-source ~/.profile
+. ~/.profile
 
 echo "Installed. Please check ~/.profile for duplicate sourcing of ~/.git_status_prompt"

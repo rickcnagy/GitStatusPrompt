@@ -1,9 +1,16 @@
 Makes a status prompt that looks like this:
 ![Prompt example](example.png)
 
-Install with:
+Setup on OS X with:
 ```
 git clone https://github.com/br1ckb0t/GitStatusPrompt.git
-source ~/GitStatusPrompt/setup.sh
+. ~/GitStatusPrompt/setup-osx.sh
+rm -rf ~/GitStatusPrompt
+```
+
+Setup on Linux with:
+```
+git clone https://github.com/br1ckb0t/GitStatusPrompt.git
+. ~/GitStatusPrompt/setup-linux.sh
 rm -rf ~/GitStatusPrompt
 ```
